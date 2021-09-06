@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="리덕스 설정, 라우팅 설정 초안 fin">
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅">
+      <change afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/activitiesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ActivitiesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/articlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/discussionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DiscussionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/editorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mem-infoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mem-infoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notfoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotfoundPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630855933501</updated>
-      <workItem from="1630855934661" duration="10369000" />
+      <workItem from="1630855934661" duration="11973000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -83,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630938687385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅">
+      <created>1630939582450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630939582450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +125,7 @@
     <MESSAGE value="oh" />
     <MESSAGE value="9월 6일자 새벽 2시 마무리" />
     <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="리덕스 설정, 라우팅 설정 초안 fin" />
+    <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
   </component>
 </project>
