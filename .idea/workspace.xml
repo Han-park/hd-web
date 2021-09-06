@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="oh">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/configure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editor/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.js" afterDir="false" />
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="9월 6일자 새벽 2시 마무리">
+      <change afterPath="$PROJECT_DIR$/src/pages/activitiesPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/articlePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/discussionPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mem-infoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/activities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/editorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/notfoundPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/discussion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mem-info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630855933501</updated>
-      <workItem from="1630855934661" duration="5920000" />
+      <workItem from="1630855934661" duration="9583000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -83,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630856056804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="9월 6일자 새벽 2시 마무리">
+      <created>1630865155607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630865155607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9월 6일자 새벽 2시 마무리">
+      <created>1630865231807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630865231807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oh" />
-    <option name="LAST_COMMIT_MESSAGE" value="oh" />
+    <MESSAGE value="9월 6일자 새벽 2시 마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="9월 6일자 새벽 2시 마무리" />
   </component>
 </project>
