@@ -5,6 +5,7 @@ import ArticlePreview from "../components/ArticlePreview"
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
+import article1 from '../data/article';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,10 +43,29 @@ function Main() {
         <br></br><br></br><br></br><br></br>
         This is a main page.<br></br>
         <BasicButtonGroup />
-        <ArticlePreview />
-        <ArticlePreview />
-        <ArticlePreview />
-        {loremIpsum}{loremIpsum}
+        <ArticlePreview
+          section={article1[0].section}
+          title={article1[0].title}
+          releasedDate={article1[0].releasedDate}
+          text={article1[0].text}
+          imgURL={article1[0].imgURL}
+          />
+          <ArticlePreview
+          section={article1[0].section}
+          title={article1[0].title}
+          releasedDate={article1[0].releasedDate}
+          text={article1[0].text}
+          imgURL={article1[0].imgURL}
+          />
+          <ArticlePreview
+          section={article1[0].section}
+          title={article1[0].title}
+          releasedDate={article1[0].releasedDate}
+          text={article1[0].text}
+          imgURL={article1[0].imgURL}
+          />
+        
+        {/* {loremIpsum}{loremIpsum} */}
     </div>
   );
 }

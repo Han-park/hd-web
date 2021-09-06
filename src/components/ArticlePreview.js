@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ArticlePreview() {
+export default function ArticlePreview(props) {
   const classes = useStyles();
 
   return (
@@ -36,21 +36,20 @@ export default function ArticlePreview() {
         <Grid container spacing={4}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="/static/images/grid/complex.jpg" />
+              <img className={classes.img} alt="complex" src={props.imgURL} />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="h6">
-                  DeepDive
+                  {props.section}
                 </Typography>
                 <Typography variant="h5" gutterBottom>
-                  한국의 백신 접종은 늦은가?
+                  {props.title}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                대통령의 임기가 만료되는 때에는 임기만료 70일 내지 40일전에 후임자를 선거한다. 행정각부의 장은 국무위원 중에서 국무총리의 제청으로 대통령이 임명한다.
-                정기회의 회기는 100일을, 임시회의 회기는 30일을 초과할 수 없다. 
+                {props.text.substring(0, 150)}...
                 </Typography>
               </Grid>
               <Grid item>
@@ -60,7 +59,7 @@ export default function ArticlePreview() {
               </Grid>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1">9/13(월)</Typography>
+              <Typography variant="subtitle1">{props.releasedDate}</Typography>
             </Grid>
           </Grid>
         </Grid>
