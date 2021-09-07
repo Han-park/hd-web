@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성">
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorHeader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/editor/PreviewPane.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="Editor 틀 완성">
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/PreviewPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/EditorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditorPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630855933501</updated>
       <workItem from="1630855934661" duration="13245000" />
-      <workItem from="1630993323520" duration="16235000" />
+      <workItem from="1630993323520" duration="16560000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -123,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631032285541</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Editor 틀 완성">
+      <created>1631041899239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631041899239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +151,7 @@
     <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
     <MESSAGE value="박종한꺼 병합 + 라우팅 test 끝" />
     <MESSAGE value="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성" />
+    <MESSAGE value="Editor 틀 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editor 틀 완성" />
   </component>
 </project>
