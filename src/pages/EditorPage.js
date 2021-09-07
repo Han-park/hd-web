@@ -1,9 +1,10 @@
 import React from "react";
+import PageTemplate from "../components/common/PageTemplate";
 
 const editorPage = () => {
     return(
         <div>
-            editor
+            <PageTemplate/>
         </div>
     );
 };

@@ -40,7 +40,7 @@ const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 const MainPage = () => {
     return (
         <div>
-            <Header />
+            <Header to={"/"} text={"LOGIN"}/>
             <br></br><br></br><br></br><br></br>
             This is a main page.<br></br>
             <BasicButtonGroup />
