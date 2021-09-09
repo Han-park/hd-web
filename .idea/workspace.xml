@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅">
+      <change afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/activitiesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ActivitiesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/articlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/discussionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DiscussionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/editorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mem-infoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mem-infoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notfoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotfoundPage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xj61FFmBztYyZM3YnNH1Qs5SjO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repos\hd-web\src\store\modules" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="" />
+      <created>1630855933501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630855933501</updated>
+      <workItem from="1630855934661" duration="11973000" />
+    </task>
+    <task id="LOCAL-00001" summary="oh">
+      <created>1630856056804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630856056804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="9월 6일자 새벽 2시 마무리">
+      <created>1630865155607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630865155607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9월 6일자 새벽 2시 마무리">
+      <created>1630865231807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630865231807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="리덕스 설정, 라우팅 설정 초안 fin">
+      <created>1630938687385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630938687385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅">
+      <created>1630939582450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630939582450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oh" />
+    <MESSAGE value="9월 6일자 새벽 2시 마무리" />
+    <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin" />
+    <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
+  </component>
+</project>
