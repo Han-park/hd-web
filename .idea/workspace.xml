@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="react-google-login installed">
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="MARKDOWN settings">
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/editor/EditorPageContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/editor/PreviewPaneContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorHeader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/PreviewPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/PreviewPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EditorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/editor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repos\hd-web\src\store\modules" />
       <recent name="C:\Repos\hd-web\src\components" />
       <recent name="C:\Repos\hd-web\src\components\common" />
       <recent name="C:\Repos\hd-web\src\components\common\Header" />
       <recent name="C:\Repos\hd-web\src\components\common\PageTemplate" />
-      <recent name="C:\Repos\hd-web\src\store\modules" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +75,7 @@
       <workItem from="1630855934661" duration="13245000" />
       <workItem from="1630993323520" duration="19816000" />
       <workItem from="1631184850617" duration="939000" />
-      <workItem from="1631281346438" duration="4422000" />
+      <workItem from="1631281346438" duration="11331000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631197365421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="MARKDOWN settings">
+      <created>1631285864135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631285864135</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +192,7 @@
     <MESSAGE value="Editor 틀 완성" />
     <MESSAGE value="EditorPage 모바일 화면 편의 반영" />
     <MESSAGE value="react-google-login installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-google-login installed" />
+    <MESSAGE value="MARKDOWN settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="MARKDOWN settings" />
   </component>
 </project>
