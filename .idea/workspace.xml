@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="EditorPage 모바일 화면 편의 반영">
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="react-google-login installed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +69,8 @@
       <updated>1630855933501</updated>
       <workItem from="1630855934661" duration="13245000" />
       <workItem from="1630993323520" duration="19816000" />
-      <workItem from="1631184850617" duration="629000" />
+      <workItem from="1631184850617" duration="939000" />
+      <workItem from="1631281346438" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -136,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631042378349</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="react-google-login installed">
+      <created>1631197365421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631197365421</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +179,7 @@
     <MESSAGE value="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성" />
     <MESSAGE value="Editor 틀 완성" />
     <MESSAGE value="EditorPage 모바일 화면 편의 반영" />
-    <option name="LAST_COMMIT_MESSAGE" value="EditorPage 모바일 화면 편의 반영" />
+    <MESSAGE value="react-google-login installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-google-login installed" />
   </component>
 </project>

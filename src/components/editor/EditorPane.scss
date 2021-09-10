@@ -1,4 +1,5 @@
 @import './src/styles/utils';
+@import url("https://cdn.jsdelivr.net/gh/velopert/font-d2coding@1.2.1/d2coding.css");
 
 .editor-pane {
   flex: 1;
@@ -20,6 +21,13 @@
   .code-editor {
     flex: 1;
     background: $oc-gray-9;
+    display: flex;
+    flex-direction: column;
+    :global .CodeMirror{
+      font-size: 8rem;
+      flex: 1;
+      font-family: 'D2 Coding';
+    }
   }
 
   .tags {
