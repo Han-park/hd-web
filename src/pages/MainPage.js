@@ -67,6 +67,7 @@ const MainPage = () => {
             />
 
             {/* {loremIpsum}{loremIpsum} */}
+
         </div>
     );
 }

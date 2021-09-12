@@ -3,7 +3,7 @@ import React from "react";
 const articlePage = () => {
     return(
         <div>
-            article
+            김응서 해야할 일
         </div>
     );
 };
