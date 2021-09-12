@@ -17,6 +17,10 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import DebatePreview from "components/DebatePreview";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
@@ -46,9 +50,20 @@ const useStylesAlert = makeStyles((theme) => ({
     root: {
       width: '100%',
       '& > * + *': {
-        marginTop: theme.spacing(2),
+        marginTop: 'theme.spacing(2)',
       },
     },
+  }));
+
+  const gridUseStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    // paper: {
+    //   padding: theme.spacing(2),
+    //   textAlign: 'center',
+    //   color: theme.palette.text.secondary,
+    // },
   }));
 
 function ActionAlerts() {
@@ -85,37 +100,54 @@ const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 const MainPage = () => {
     return (
         <div>
+            <style>{'body { background-color: #e4e4e4; }'}</style>
             <Header />
             <br></br><br></br><br></br><br></br>
             <ActionAlerts />
 
             <React.Fragment>
             <CssBaseline />
-            <Container maxWidth="md">
-
-                <BasicButtonGroup />
-                <ArticlePreview
-                    section={article1[0].section}
-                    title={article1[0].title}
-                    releasedDate={article1[0].releasedDate}
-                    text={article1[0].text}
-                    imgURL={article1[0].imgURL}
-                    link={article1[0].link}
-                />
-                <ArticlePreview
-                    section={article1[0].section}
-                    title={article1[0].title}
-                    releasedDate={article1[0].releasedDate}
-                    text={article1[0].text}
-                    imgURL={article1[0].imgURL}
-                />
-                <ArticlePreview
-                    section={article1[0].section}
-                    title={article1[0].title}
-                    releasedDate={article1[0].releasedDate}
-                    text={article1[0].text}
-                    imgURL={article1[0].imgURL}
-                />
+            <Container maxWidth="lg">
+            <div className={gridUseStyles.root}>
+            <Grid container spacing={1}>
+                <Grid item sm={8}>
+                <div name="articles">
+                    
+                        {/* <Paper className={gridUseStyles.paper}> */}
+                    <BasicButtonGroup />
+                    <ArticlePreview
+                        section={article1[0].section}
+                        title={article1[0].title}
+                        releasedDate={article1[0].releasedDate}
+                        text={article1[0].text}
+                        imgURL={article1[0].imgURL}
+                        link={article1[0].link}
+                    />
+                    <ArticlePreview
+                        section={article1[0].section}
+                        title={article1[0].title}
+                        releasedDate={article1[0].releasedDate}
+                        text={article1[0].text}
+                        imgURL={article1[0].imgURL}
+                    />
+                    <ArticlePreview
+                        section={article1[0].section}
+                        title={article1[0].title}
+                        releasedDate={article1[0].releasedDate}
+                        text={article1[0].text}
+                        imgURL={article1[0].imgURL}
+                    />
+                        {/* </Paper> */}
+                </div>
+                </Grid>
+                <Grid item sm={4}>
+                    {/* <Paper className={gridUseStyles.paper}> */}
+                    <DebatePreview />
+                    {/* </Paper> */}
+                </Grid>
+            </Grid>
+                
+            </div>
 
             </Container>
             </React.Fragment> 

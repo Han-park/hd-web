@@ -8,13 +8,14 @@ import ButtonBase from '@material-ui/core/ButtonBase';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
+        flexGrow: 1
     },
     paper: {
         padding: theme.spacing(2),
         margin: '10px',
         // maxWidth: 500,
-        border:'1px solid black'
+        border:'1px solid black',
+        borderRadius: '8px'
     },
     image: {
         width: 128,
@@ -26,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '100%',
         maxHeight: '100%',
     },
-}));
+}))
 
 export default function ArticlePreview(props) {
     const classes = useStyles();
