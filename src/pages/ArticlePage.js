@@ -1,9 +1,13 @@
 import React from "react";
+import PageTemplate from "../components/common/PageTemplate";
+import ArticleInfo from "../components/article";
 
 const articlePage = () => {
     return(
         <div>
-            김응서 해야할 일
+            <PageTemplate>
+                <ArticleInfo/>
+            </PageTemplate>
         </div>
     );
 };

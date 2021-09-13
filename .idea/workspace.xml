@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="MARKDOWN client fin">
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="checked">
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
     </list>
@@ -69,7 +72,8 @@
       <workItem from="1630855934661" duration="13245000" />
       <workItem from="1630993323520" duration="19816000" />
       <workItem from="1631184850617" duration="939000" />
-      <workItem from="1631281346438" duration="17163000" />
+      <workItem from="1631281346438" duration="17201000" />
+      <workItem from="1631543044024" duration="5222000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -162,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631293126520</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="checked">
+      <created>1631464841433</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631464841434</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +206,7 @@
     <MESSAGE value="react-google-login installed" />
     <MESSAGE value="MARKDOWN settings" />
     <MESSAGE value="MARKDOWN client fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="MARKDOWN client fin" />
+    <MESSAGE value="checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked" />
   </component>
 </project>

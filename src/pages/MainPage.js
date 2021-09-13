@@ -13,8 +13,10 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+
         '& > *': {
             margin: theme.spacing(1),
+
         },
     },
 }));
@@ -42,7 +44,7 @@ const MainPage = () => {
         <div>
             <Header to={"/"} text={"LOGIN"}/>
             <br></br><br></br><br></br><br></br>
-            This is a main page.<br></br>
+            <br></br>
             <BasicButtonGroup />
             <ArticlePreview
                 section={article1[0].section}
