@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         margin: '10px',
         // maxWidth: 500,
         border:'1px solid black',
-        boxShadow: '1px 2px 2px gray'
+        // boxShadow: '1px 2px 2px gray'
     },
     image: {
         width: 128,

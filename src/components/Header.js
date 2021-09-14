@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         color: 'black',
         borderBottom: '1px solid black',
         height: '4rem',
-        boxShadow: '1px 1px 1px gray'
+        // boxShadow: '1px 1px 1px gray'
     },
     menuButton: {
         marginRight: theme.spacing(2),
@@ -36,6 +36,7 @@ function Header() {
 
     return (
         <div className={classes.root}>
+            {/* <AppBar position="fixed"> */}
             <AppBar position="fixed" elevation={0}>
                 <Toolbar className={classes.appBar}>
                     {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
