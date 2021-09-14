@@ -4,16 +4,6 @@ import { Map } from 'immutable';
 import { pender } from 'redux-pender';
 
 // action types
-<<<<<<< HEAD
-
-// action creators
-
-// initial state
-const initialState = Map({});
-
-// reducer
-export default handleActions({
-=======
 const INITIALIZE = 'editor/INITIALIZE';
 const CHANGE_INPUT = 'editor/CHANGE_INPUT';
 
@@ -35,6 +25,5 @@ export default handleActions({
         const {name, value} = action.payload;
         return state.set(name, value);
     }
->>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
 
 }, initialState);
