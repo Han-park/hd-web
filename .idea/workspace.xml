@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅">
       <change afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/data/article.js" afterDir="false" />
@@ -14,6 +15,17 @@
       <change beforePath="$PROJECT_DIR$/src/pages/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/mem-infoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mem-infoPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/notfoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotfoundPage.js" afterDir="false" />
+=======
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="checked">
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +35,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="SCSS File" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
         <option value="JavaScript File" />
       </list>
     </option>
@@ -45,15 +61,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+=======
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Repos\hd-web\src\store\modules" />
+<<<<<<< HEAD
+=======
+      <recent name="C:\Repos\hd-web\src\components" />
+      <recent name="C:\Repos\hd-web\src\components\common" />
+      <recent name="C:\Repos\hd-web\src\components\common\Header" />
+      <recent name="C:\Repos\hd-web\src\components\common\PageTemplate" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +97,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630855933501</updated>
+<<<<<<< HEAD
       <workItem from="1630855934661" duration="11973000" />
+=======
+      <workItem from="1630855934661" duration="13245000" />
+      <workItem from="1630993323520" duration="19816000" />
+      <workItem from="1631184850617" duration="939000" />
+      <workItem from="1631281346438" duration="17201000" />
+      <workItem from="1631543044024" duration="5222000" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -101,7 +142,74 @@
       <option name="project" value="LOCAL" />
       <updated>1630939582450</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="6" />
+=======
+    <task id="LOCAL-00006" summary="박종한꺼 병합 + 라우팅 test 끝">
+      <created>1630942158921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630942158921</updated>
+    </task>
+    <task id="LOCAL-00007" summary="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성">
+      <created>1631032285541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631032285541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Editor 틀 완성">
+      <created>1631041899239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631041899239</updated>
+    </task>
+    <task id="LOCAL-00009" summary="EditorPage 모바일 화면 편의 반영">
+      <created>1631042273651</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631042273651</updated>
+    </task>
+    <task id="LOCAL-00010" summary="EditorPage 모바일 화면 편의 반영">
+      <created>1631042378349</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631042378349</updated>
+    </task>
+    <task id="LOCAL-00011" summary="react-google-login installed">
+      <created>1631197365421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631197365421</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MARKDOWN settings">
+      <created>1631285864135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631285864135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MARKDOWN client fin">
+      <created>1631293126520</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631293126520</updated>
+    </task>
+    <task id="LOCAL-00014" summary="checked">
+      <created>1631464841433</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631464841434</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,12 +228,28 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oh" />
     <MESSAGE value="9월 6일자 새벽 2시 마무리" />
     <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin" />
     <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="리덕스 설정, 라우팅 설정 초안 fin&#10;+ 슬랙 알림 테스팅" />
+=======
+    <MESSAGE value="박종한꺼 병합 + 라우팅 test 끝" />
+    <MESSAGE value="김응서가 기본적으로 쓰는 scss 설정 fin&#10;+ Page 를 구울 PageTemplate 생성" />
+    <MESSAGE value="Editor 틀 완성" />
+    <MESSAGE value="EditorPage 모바일 화면 편의 반영" />
+    <MESSAGE value="react-google-login installed" />
+    <MESSAGE value="MARKDOWN settings" />
+    <MESSAGE value="MARKDOWN client fin" />
+    <MESSAGE value="checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked" />
+>>>>>>> 128e9fbb38f176fea98ce8d30d6baf2d3911cf1d
   </component>
 </project>

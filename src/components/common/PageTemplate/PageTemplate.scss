@@ -1,0 +1,8 @@
+@import './src/styles/utils';
+
+.page-template {
+  main{
+    background: $oc-gray-2;
+    min-height: calc(100vh - 4rem);
+  }
+}

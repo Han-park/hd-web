@@ -1,12 +1,13 @@
 import React from "react";
-import Header from "../components/Header";
+import PageTemplate from "../components/common/PageTemplate";
+import ArticleInfo from "../components/article";
 
 const articlePage = () => {
     return(
         <div>
-            <Header />
-            <br /><br /><br /><br />
-            article
+            <PageTemplate>
+                <ArticleInfo/>
+            </PageTemplate>
         </div>
     );
 };

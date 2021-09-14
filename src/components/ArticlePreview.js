@@ -4,18 +4,17 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
-// import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1
+        flexGrow: 1,
     },
     paper: {
         padding: theme.spacing(2),
         margin: '10px',
         // maxWidth: 500,
         border:'1px solid black',
-        borderRadius: '8px'
+        boxShadow: '1px 2px 2px gray'
     },
     image: {
         width: 128,
@@ -27,11 +26,10 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '100%',
         maxHeight: '100%',
     },
-}))
+}));
 
 export default function ArticlePreview(props) {
     const classes = useStyles();
-    const preventDefault = (event) => event.preventDefault();
 
     return (
         <div className={classes.root}>
@@ -56,10 +54,8 @@ export default function ArticlePreview(props) {
                                 </Typography>
                             </Grid>
                             <Grid item>
-                                <Typography variant="body2">
-                                    <a href={props.link} onClick={preventDefault}>
-                                        Read
-                                    </a>
+                                <Typography variant="body2" style={{ cursor: 'pointer' }}>
+                                    Read
                                 </Typography>
                             </Grid>
                         </Grid>

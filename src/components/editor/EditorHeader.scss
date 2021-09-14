@@ -1,0 +1,23 @@
+@import './src/styles/utils';
+
+.editor-header {
+  background: whitesmoke;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $oc-gray-4;
+
+  .hd{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .submit{
+    margin-left: auto;
+  }
+}
