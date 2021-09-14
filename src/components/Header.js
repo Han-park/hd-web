@@ -11,6 +11,8 @@ import LockOpenIcon from '@material-ui/icons/LockOpen';
 import ForumOutlinedIcon from '@material-ui/icons/ForumOutlined';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
+// import hdLogo from '../img/hd-logo.png';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -39,13 +41,14 @@ function Header() {
             {/* <AppBar position="fixed"> */}
             <AppBar position="fixed" elevation={0}>
                 <Toolbar className={classes.appBar}>
+                    
                     {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
                     {/* <MenuIcon /> */}
 
                     {/* </IconButton> */}
-
+                    <img src="img/hdLogo.png" style={{maxHeight: '40px'}}/>
                     <Typography variant="h6" className={classes.title}>
-                        Higher Definition
+                        &nbsp;Higher Definition
                     </Typography>
                     <Button color="inherit">Login</Button>
                 </Toolbar>
