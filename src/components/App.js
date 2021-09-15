@@ -14,7 +14,8 @@ const App = () => {
             <Switch>
                 <Route exact path="/" component={mainPage}/>
                 <Route path="/article/:page" component={articlePage}/>
-                <Route path="/discussion/:page" component={discussionPage}/>
+                <Route path="/discussion" component={discussionPage}/>
+                {/* discussionpage는 한페이지라 route 수정함(종한) */}
                 <Route path="/editor" component={editorPage}/>
                 <Route path="/mem-info" component={memInfoPage}/>
                 <Route path="/activities" component={activitiesPage}/>
