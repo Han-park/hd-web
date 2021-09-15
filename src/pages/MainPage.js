@@ -113,7 +113,6 @@ const MainPage = () => {
                 <Grid item sm={8}>
                 <div name="articles">
                     
-                        {/* <Paper className={gridUseStyles.paper}> */}
                     <BasicButtonGroup />
                     <ArticlePreview
                         section={article1[0].section}
@@ -137,13 +136,10 @@ const MainPage = () => {
                         text={article1[0].text}
                         imgURL={article1[0].imgURL}
                     />
-                        {/* </Paper> */}
                 </div>
                 </Grid>
                 <Grid item sm={4}>
-                    {/* <Paper className={gridUseStyles.paper}> */}
                     <DebatePreview />
-                    {/* </Paper> */}
                 </Grid>
             </Grid>
                 
