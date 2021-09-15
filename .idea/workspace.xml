@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="checked">
-      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleInfo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/article/index.js" afterDir="false" />
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="mainpage shadow 작업&#10;Article page 틀 작업">
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleView.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1630993323520" duration="19816000" />
       <workItem from="1631184850617" duration="939000" />
       <workItem from="1631281346438" duration="17201000" />
-      <workItem from="1631543044024" duration="5222000" />
+      <workItem from="1631543044024" duration="5715000" />
+      <workItem from="1631633778084" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631464841434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mainpage shadow 작업&#10;Article page 틀 작업">
+      <created>1631548503474</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631548503474</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +214,7 @@
     <MESSAGE value="MARKDOWN settings" />
     <MESSAGE value="MARKDOWN client fin" />
     <MESSAGE value="checked" />
-    <option name="LAST_COMMIT_MESSAGE" value="checked" />
+    <MESSAGE value="mainpage shadow 작업&#10;Article page 틀 작업" />
+    <option name="LAST_COMMIT_MESSAGE" value="mainpage shadow 작업&#10;Article page 틀 작업" />
   </component>
 </project>
