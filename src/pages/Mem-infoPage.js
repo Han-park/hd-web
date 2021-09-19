@@ -1,11 +1,11 @@
 import React from "react";
 
-const memInfoPage = () => {
+const MemInfoPage = () => {
     return(
         <div>
-            memInfo
+            Member info page
         </div>
     );
 };
 
-export default memInfoPage;
+export default MemInfoPage;
