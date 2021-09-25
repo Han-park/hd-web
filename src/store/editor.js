@@ -1,7 +1,7 @@
 import { createAction, handleActions} from 'redux-actions';
 
 import { Map } from 'immutable';
-import { pender } from 'redux-pender';
+import { pender } from 'redux-pender'; // eslint-disable-line no-unused-vars
 
 // action types
 const INITIALIZE = 'editor/INITIALIZE';
@@ -20,7 +20,7 @@ const initialState = Map({
 
 // reducer
 export default handleActions({
-    [INITIALIZE]: (state, action) => initialState,
+    [INITIALIZE]: (state, action) => initialState, // eslint-disable-line no-unused-vars
     [CHANGE_INPUT]: (state, action) => {
         const {name, value} = action.payload;
         return state.set(name, value);

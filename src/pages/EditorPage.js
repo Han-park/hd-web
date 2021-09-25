@@ -1,5 +1,4 @@
 import React from "react";
-import PageTemplate from "../components/common/PageTemplate";
 import EditorTemplate from "../components/editor/EditorTemplate";
 import EditorHeader from '../components/editor/EditorHeader';
 import EditorPageContainer from "../containers/editor/EditorPageContainer";

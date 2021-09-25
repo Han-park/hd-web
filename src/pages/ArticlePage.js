@@ -1,17 +1,20 @@
-import React from "react";
-import PageTemplate from "../components/common/PageTemplate";
-import ArticleInfo from "../components/article";
-import ArticleView from "../components/article/ArticleView";
+import React from 'react';
+import PageTemplate from 'components/common/PageTemplate';
+import PropTypes from 'prop-types';
+import Article from "../containers/post/Article";
 
-const articlePage = () => {
-    return(
-        <div>
-            <PageTemplate>
-                <ArticleInfo/>
-                <ArticleView/>
-            </PageTemplate>
-        </div>
+
+const ArticlePage = ({ match }) => {
+    const { id } = match.params;
+    return (
+        <PageTemplate>
+            <Article id={id}/>
+        </PageTemplate>
     );
 };
 
-export default articlePage;
+ArticlePage.propTypes = {
+    match: PropTypes.any
+}
+
+export default ArticlePage;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PreviewPane from 'components/editor/PreviewPane';
+import PropTypes from 'prop-types';
 
 class PreviewPaneContainer extends Component {
     render() {
@@ -9,6 +10,11 @@ class PreviewPaneContainer extends Component {
             <PreviewPane title={title} markdown={markdown}/>
         );
     }
+}
+
+PreviewPaneContainer.propTypes = {
+    markdown: PropTypes.string,
+    title: PropTypes.string
 }
 
 export default connect(

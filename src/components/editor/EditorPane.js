@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import styles from './EditorPane.scss';
 import classNames from "classnames/bind";
 import CodeMirror from "codemirror";
+import PropTypes from 'prop-types';
 
 import 'codemirror/mode/markdown/markdown';
 import 'codemirror/mode/javascript/javascript';
@@ -50,7 +51,8 @@ class EditorPane extends Component{
         })
     }
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate(prevProps, prevState, snapshot) {// eslint-disable-line no-unused-vars
+
         if(prevProps.markdown !== this.props.markdown){
             const {codeMirror, cursor} = this;
             if(!codeMirror) return;
@@ -62,7 +64,7 @@ class EditorPane extends Component{
 
     render() {
         const {handleChange} = this;
-        const {tags, title} = this.props;
+        const {tag, title} = this.props;
 
         return (
             <div className={cx('editor-pane')}>
@@ -74,13 +76,20 @@ class EditorPane extends Component{
                      ref={ref => this.editor=ref}
                 >
                 </div>
-                <div className={cx('tags')}>
+                <div className={cx('tag')}>
                     <div className={cx('description')}>태그</div>
-                    <input name="tags" placeholder="태그를 입력하세요 (쉼표로 구분)" value={tags} onChange={handleChange}/>
+                    <input name="tag" placeholder="태그를 입력하세요" value={tag} onChange={handleChange}/>
                 </div>
             </div>
         );
     }
+}
+
+EditorPane.propTypes = {
+    onChangeInput: PropTypes.any,
+    markdown: PropTypes.string,
+    tag: PropTypes.string,
+    title: PropTypes.string
 }
 
 export default EditorPane;

@@ -5,7 +5,7 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 const ArticleInfo = () => (
-    <div className={cx('article-info')}>
+    <div className={cx('article_2-info')}>
         <div className={cx('info')}>
             <h1>타이틀</h1>
             <div className={cx('tags')}>

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './EditorHeader.scss';
 import classNames from "classnames/bind";
+import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 
 const cx = classNames.bind(styles);
@@ -20,6 +21,11 @@ const EditorHeader = ({onGoBack, onSubmit}) => {
       </div>
     );
 
+}
+
+EditorHeader.propTypes = {
+    onGoBack: PropTypes.any,
+    onSubmit: PropTypes.any
 }
 
 export default EditorHeader;

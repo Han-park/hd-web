@@ -5,7 +5,7 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 const ArticleView = () => (
-    <div className={cx('article-body')}>
+    <div className={cx('article_2-body')}>
         <div className={cx('paper')}>
             내용
         </div>

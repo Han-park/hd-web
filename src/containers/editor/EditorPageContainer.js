@@ -3,6 +3,7 @@ import EditorPane from "../../components/editor/EditorPane";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 import * as editorActions from 'store/editor';
+import PropTypes from 'prop-types';
 
 class EditorPageContainer extends Component{
 
@@ -12,18 +13,25 @@ class EditorPageContainer extends Component{
     }
 
     render() {
-        const {title, markdown, tags} = this.props;
+        const {title, markdown, tag: tag} = this.props;
         const {handleChangeInput} = this;
 
         return(
             <EditorPane
                 title = {title}
                 markdown = {markdown}
-                tags = {tags}
+                tag= {tag}
                 onChangeInput = {handleChangeInput}
                 />
         );
     }
+}
+
+EditorPageContainer.propTypes = {
+    title: PropTypes.string,
+    markdown: PropTypes.string,
+    tag: PropTypes.string,
+    EditorActions: PropTypes.any
 }
 
 export default connect(

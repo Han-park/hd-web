@@ -6,6 +6,7 @@ import marked from 'marked';
 
 // prism 관련 코드 불러오기
 import Prism from 'prismjs';
+import PropTypes from 'prop-types';
 import 'prismjs/themes/prism-okaidia.css';
 import 'prismjs/components/prism-bash.min.js';
 import 'prismjs/components/prism-javascript.min.js'
@@ -70,6 +71,10 @@ class MarkdownRender extends Component {
             <div className={cx('markdown-render')} dangerouslySetInnerHTML={markup}/>
         );
     }
+}
+
+MarkdownRender.propTypes = {
+    markdown: PropTypes.string
 }
 
 export default MarkdownRender;

@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,9 +29,8 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function ArticlePreview(props) {
+function ArticlePreview(props) {
     const classes = useStyles();
-
     return (
         <div className={classes.root}>
             <Paper className={classes.paper} elevation={0}>
@@ -68,3 +68,14 @@ export default function ArticlePreview(props) {
         </div>
     );
 }
+
+ArticlePreview.propTypes = {
+    imgURL: PropTypes.string,
+    section: PropTypes.string,
+    title: PropTypes.string,
+    text: PropTypes.string,
+    releasedDate: PropTypes.any
+
+}
+
+export default ArticlePreview;

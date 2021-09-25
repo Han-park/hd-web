@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import styles from './EditorTemplate.scss';
 import classNames from "classnames/bind";
-import Header from "../Header";
+import PropTypes from 'prop-types';
 
 const cx = classNames.bind(styles);
 
@@ -16,18 +16,18 @@ class EditorTemplate extends Component {
         });
     }
 
-    handleMouseUp = (e) => {
+    handleMouseUp = (e) => { // eslint-disable-line no-unused-vars
         document.body.removeEventListener('mousemove', this.handleMouseMove);
         window.removeEventListener('mouseup', this.handleMouseUp)
     }
 
-    handleSeparatorMouseDown = (e) => {
+    handleSeparatorMouseDown = (e) => { // eslint-disable-line no-unused-vars
         document.body.addEventListener('mousemove', this.handleMouseMove);
         window.addEventListener('mouseup', this.handleMouseUp);
 
     }
     render() {
-        const { header, editor, preview} = this.props;
+        const { header, editor, preview} = this.props; // eslint-disable-line no-unused-vars
         const { leftPercentage } = this.state;
         const { handleSeparatorMouseDown } = this;
 
@@ -63,6 +63,13 @@ class EditorTemplate extends Component {
             </div>
         );
     }
+}
+
+EditorTemplate.propTypes = {
+    header: PropTypes.any,
+    editor: PropTypes.any,
+    preview: PropTypes.any,
+
 }
 
 export default EditorTemplate;

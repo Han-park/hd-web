@@ -1,7 +1,7 @@
-import { createAction, handleActions} from 'redux-actions';
+import { createAction, handleActions} from 'redux-actions'; // eslint-disable-line no-unused-vars
 
 import { Map } from 'immutable';
-import { pender } from 'redux-pender';
+import { pender } from 'redux-pender'; // eslint-disable-line no-unused-vars
 
 // action types
 

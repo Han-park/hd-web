@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="mainpage shadow 작업&#10;Article page 틀 작업">
-      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/article/ArticleView.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
+    <list default="true" id="cee0c6eb-d53c-442c-aea5-79b84b7c04a6" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleBody/ArticleBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleBody/ArticleBody.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleBody/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleInfo/ArticleInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleInfo/ArticleInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Article/ArticleInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/post/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article/ArticleInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article_2/ArticleInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article/ArticleInfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article_2/ArticleInfo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article/ArticleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article_2/ArticleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article/ArticleView.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article_2/ArticleView.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article_2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/PageTemplate/PageTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PageTemplate/PageTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorPane.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/EditorTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/PreviewPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/PreviewPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/editor/EditorPageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/editor/EditorPageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/editor/PreviewPaneContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/editor/PreviewPaneContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -53,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repos\hd-web\src\components\post\PostBody" />
       <recent name="C:\Repos\hd-web\src\store\modules" />
       <recent name="C:\Repos\hd-web\src\components" />
       <recent name="C:\Repos\hd-web\src\components\common" />
       <recent name="C:\Repos\hd-web\src\components\common\Header" />
-      <recent name="C:\Repos\hd-web\src\components\common\PageTemplate" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,7 +100,10 @@
       <workItem from="1631184850617" duration="939000" />
       <workItem from="1631281346438" duration="17201000" />
       <workItem from="1631543044024" duration="5715000" />
-      <workItem from="1631633778084" duration="3129000" />
+      <workItem from="1631633778084" duration="5089000" />
+      <workItem from="1631877818389" duration="608000" />
+      <workItem from="1632325819099" duration="4939000" />
+      <workItem from="1632583224140" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="oh">
       <created>1630856056804</created>
@@ -180,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631548503474</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1">
+      <created>1631717974629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631717974629</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +239,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="oh" />
     <MESSAGE value="9월 6일자 새벽 2시 마무리" />
     <MESSAGE value="리덕스 설정, 라우팅 설정 초안 fin" />
@@ -215,6 +253,7 @@
     <MESSAGE value="MARKDOWN client fin" />
     <MESSAGE value="checked" />
     <MESSAGE value="mainpage shadow 작업&#10;Article page 틀 작업" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainpage shadow 작업&#10;Article page 틀 작업" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

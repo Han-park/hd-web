@@ -7,11 +7,6 @@ import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
-import LockOpenIcon from '@material-ui/icons/LockOpen';
-import ForumOutlinedIcon from '@material-ui/icons/ForumOutlined';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-
-
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
